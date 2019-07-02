@@ -6,7 +6,6 @@ import java.io.IOException;
 import java.net.URI;
 
 import static java.lang.System.in;
-import static java.lang.System.out;
 
 public class Main {
 //  Base URI the Grizzly HTTP server will listen on

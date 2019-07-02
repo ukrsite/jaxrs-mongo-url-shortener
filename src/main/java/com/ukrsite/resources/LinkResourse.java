@@ -1,6 +1,5 @@
 package com.ukrsite.resources;
 
-
 import com.mongodb.MongoClient;
 import com.mongodb.MongoWriteException;
 import com.mongodb.client.FindIterable;
@@ -13,13 +12,9 @@ import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import java.util.Random;
-import java.util.concurrent.atomic.AtomicInteger;
 
 @Path("links")
 public class LinkResourse {
-
-  private static final AtomicInteger currentId = new AtomicInteger();
-//  private static final Map<String, String> links = new ConcurrentHashMap<>();
 
   private static final MongoCollection<Document> LINK_COLLECTION;
 
